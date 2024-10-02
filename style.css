@@ -1,22 +1,11 @@
-.container2{
+.container2 {
     width: 1440px;
     height: 780px;
-    /* border: 3px solid black; */
     background: #EFEFEF;
-
+    padding-left: 126px;
 }
-/* h1{
-width: 987px;
-height: 93px;
-font-family: Roboto Slab;
-font-size: 55px;
-font-weight: 700;
-line-height: 55.76px;
-text-align: left;
 
-} */
-
-.box2{
+.box2 {
     width: 791px;
     height: 451px;
     display: flex;
@@ -24,57 +13,250 @@ text-align: left;
     border-radius: 30px 30px 30px 30px;
     box-sizing: border-box;
     background-color: white;
-    margin-left: 126px;
-    padding-left: 26px;
-    padding-bottom: 29px;
-
 }
 
-
-p{
-    width: 791px;
-    height: 451px;
+p {
+    width: 700px;
+    height: 203px;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 46px;
     line-height: 30px;
     text-align: left;
-    padding-top: 40px;
-    padding-left: 45px;
-    box-sizing: border-box;
-    padding-right: 46px;
-    
 }
 
-.header2{
-    padding-top: 91px;
-    padding-left: 122px;
+h1 {
     width: 987px;
     height: 93px;
+    font-family: Roboto Slab;
+    font-size: 61.5px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 91px;
+    padding-left: 122;
 }
-.img2{
+
+.img2 {
     box-sizing: border-box;
-    width: 190px;
-    height: 169px;
+    width: 210px;
+    height: 200px;
+    padding-left: 26px;
+    padding-bottom: 29px
 }
-h2{
+
+h2 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1px;
+    width: 353px;
+    height: 59px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
 }
-.photoh1{
-    display: flex;
 
+.photoh1 {
+    display: flex;
 }
-.fbphoto{
+
+.fbphoto {
     width: 32px;
     height: 31px;
-    padding-bottom: 68px;
-
+    padding-bottom: 86px;
+    padding-left: 20px;
 }
-.eynibox{
+
+.eynibox {
     display: flex;
     flex-direction: column;
-    height: 92px;
-    padding: 15px
+    height: 100px;
+    padding: 15px;
+    padding-bottom: 100px;
 }
+
+
+
+
+/* tablet */
+ @media (max-width:1280px) {
+
+    .container2 {
+        width: 834px;
+        height: 451.75px;
+        background: #EFEFEF;
+
+        padding-left: 72px;
+
+    }
+
+    .box2 {
+        width: 458.12px;
+        height: 261.2px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px 30px 30px 30px;
+        box-sizing: border-box;
+        background-color: white;
+
+        padding-left: 3px;
+    }
+
+    h1 {
+        width: 571.64px;
+        height: 53.86px;
+        font-family: Roboto Slab;
+        text-align: left;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 32.44px;
+
+        padding-left: 20px;
+        padding-top: 53px;
+    }
+
+    p {
+        width: 405.42px;
+        height: 117.57px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        width: 405.42px;
+        height: 117.57px;
+
+        padding-left: 26px;
+        padding-top: 13px;
+    }
+
+    .img2 {
+        box-sizing: border-box;
+        width: 130px;
+        height: 125px;
+
+        padding-left: 15px;
+    }
+
+    h2 {
+        display: flex;
+        flex-direction: column;
+        width: 204.45px;
+        height: 34.17px;
+        font-family: Roboto Slab;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 17.24px;
+        text-align: left;
+
+        padding-left: 10px;
+    }
+
+    .photoh1 {
+        display: flex;
+    }
+
+    .fbphoto {
+        width: 18.53px;
+        height: 17.95px;
+
+        padding-left: 5px;
+    }
+
+    .eynibox {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+
+
+/* mobile */
+@media (max-width:991px) {
+
+    .container2 {
+        background: #EFEFEF;
+        width: 410px;
+        height: 423px;
+        padding-left: 50px;
+        /* margin-left: 30px; */
+    }
+
+    .box2 {
+        width: 328px;
+        height: 248px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px 30px 30px 30px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    p {
+        width: 266px;
+        height: 111.01px;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+    }
+
+    h1 {
+        width: 257px;
+        height: 69px;
+        font-family: Roboto Slab;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 26.36px;
+        padding-left: 16px;
+        padding-top: 42px;
+
+    }
+
+
+
+    .img2 {
+        box-sizing: border-box;
+        width: 125px;
+        height: 120px;
+
+
+    }
+
+    h2 {
+        display: flex;
+        flex-direction: column;
+        width: 164.49px;
+        height: 32.73px;
+        font-family: Roboto Slab;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14.19px;
+        text-align: left;
+        padding-left: 3px;
+
+    }
+
+    .photoh1 {
+        display: flex;
+    }
+
+    .fbphoto {
+        width: 14.91px;
+        height: 17.2px;
+        padding-left: 3px;
+    }
+
+    .eynibox {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

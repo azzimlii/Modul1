@@ -14,8 +14,8 @@ body {
 .container5 {
     margin-left: 121px;
     margin-top: 21px;
-    width: 1440px;
-    height: 974px;
+    max-width: 1440px;
+    max-height: 974px;
 }
 
 .logo5 {
@@ -47,18 +47,20 @@ section {
     height: 32px;
 }
 
-h1 {
+main h1 {
     font-size: 80px;
     width: 628px;
     height: 190px;
     margin: 0px;
     margin-top: 29px;
+    margin-bottom: 18px;
 }
 
 .text5 {
     font-size: 20px;
     width: 414px;
     height: 62px;
+    margin: 0px;
 }
 
 .photo5 {
@@ -69,8 +71,8 @@ h1 {
 
 .ellipse5 {
     position: relative;
-    top: 20px;
-    right: 270px;
+    bottom: 30px;
+    left: 160px;
     z-index: -1;
     width: 274px;
     height: 41px;
@@ -86,6 +88,8 @@ main {
     margin-left: 288.39px;
     margin-right: 546.98px;
     margin-bottom: 173.36px;
+    width: 483.63px;
+    height: 200px;
 }
 
 
@@ -100,8 +104,8 @@ main2 {
 }
 
 .container55 {
-    height: 954px;
-    width: 1440px;
+    max-height: 954px;
+    max-width: 1440px;
     padding-left: 124px;
     padding-bottom: 157px;
     padding-top: 0px;
@@ -145,7 +149,7 @@ main2 {
 
 .photo54 {
     position: absolute;
-    bottom: -320px;
+    top: 1760px;
     left: 155px;
     z-index: -1;
 
@@ -175,4 +179,360 @@ main2 {
     width: 150px;
     height: 39px;
     margin-top: 0px;
+}
+
+
+@media(max-width:1279px){
+
+
+    .container5 {
+        margin-left: 70px;
+        margin-top: 22px;
+        width: 834px;
+        height: 568px;
+    }
+    
+    .logo5 {
+        margin-bottom: 56.18px;
+        width: 64.87px;
+        height: 38.23px;
+    }
+    
+    section {
+        display: flex;
+        width: 206.76px;
+    }
+    
+    .info5 {
+        display: flex;
+        margin-right: 15px;
+    }
+    
+    .icon5 {
+        margin-right: 14.48px;
+        width: 12.74px;
+        height: 12.16px;
+    }
+    
+    .info5 p {
+        font-size: 12px;
+        margin: 0px;
+        width: 75.29px;
+        height: 18.53px;
+    }
+    
+    main h1 {
+        font-size: 46px;
+        width: 362.72px;
+        height: 110.04px;
+        margin: 0px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
+    
+    .text5 {
+        font-size: 12px;
+        width: 264px;
+        height: 36px;
+        margin: 0px;
+    }
+    
+    .photo5 {
+        width: 176px;
+        height: 206.18px;
+        margin-left: 81px;
+    }
+    
+    .ellipse5 {
+        position: relative;
+        bottom: -15px;
+        left: -150px;
+        z-index: -1;
+        width: 158.7px;
+        height: 23.75px;
+    }
+    
+    
+    .group {
+        margin-top: 50.75px;
+        margin-left: 237px;
+        margin-right: 316.79px;
+        margin-bottom: 56.24px;
+        width: 280.11px;
+        height: 115.83px;
+    }
+
+
+
+    /* ////////////////////////////////////////////////////////////// */
+
+
+.container55 {
+    height: 834px;
+    width: 568px;
+    padding-left: 70px;
+    padding-bottom: 93px;
+    padding-top: 0px;
+}
+
+
+.article5 {
+    max-width: 383.41px;
+    height: 216.61px;
+    font-size:14px;
+    margin-right: 16px;
+
+}
+
+.photo51 {
+    width: 181.86px;
+    height: 182.44px;
+    padding-left: 90px;
+
+
+}
+
+.photo52 {
+    position: relative;
+    bottom: 20px;
+    left: -20px;
+    z-index: -1;
+    width: 211.98px;
+    height: 34.17px;
+    padding-left: 94px;
+}
+
+.photo53 {
+    position: relative;
+    top: 35px;
+    right: 10px;
+    width: 134.37px;
+    height: 117.57px;
+    margin-right: 29px;
+}
+
+.photo54 {
+    position: absolute;
+    top: 1100px;
+    left: 75px;
+    z-index: -1;
+
+    width: 134px;
+    height: 32px;
+}
+
+.about5 {
+    width: 211px;
+    height: 53.86px;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.txt5 h2 {
+    font-size: 15px;
+    margin-bottom: 0.6px;
+}
+
+.txt5 {
+    margin-top: 94px;
+    margin-left: 55px;
+}
+
+.txt5 p {
+    font-size: 11px;
+    width: 86.88px;
+    height: 22.59px;
+    margin-top: 0px;
+}
+.mini-container5{
+    margin-top: 94.98px;
+}
+}
+
+
+
+
+@media(max-width:991px){
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.container5 {
+    margin-left: 36px;
+    margin-top: 35px;
+    width: 375px;
+    height: 597px;
+}
+
+.logo5 {
+    margin-bottom: 45.2px;
+    width: 52.19px;
+    height: 30.75px;
+}
+
+section {
+    width: 166.35px;
+}
+
+.info5 {
+    
+    margin-right: 11.65px;
+}
+
+.icon5 {
+    margin-right: 4.52px;
+    width: 10.25px;
+    height: 9.79px;
+}
+
+.info5 p {
+    font-size: 10px;
+    margin: 0px;
+    width: 60.58px;
+    height: 14.91px;
+}
+
+main h1 {
+    font-size: 37px;
+    width: 292.63px;
+    height: 88.53px;
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 2.22px;
+}
+
+.text5 {
+    font-size: 10px;
+    width: 212.4px;
+    height: 29px;
+    margin: 0px;
+}
+
+.photo5 {
+    width: 141.68px;
+    height: 175.1px;
+    margin-left: 201px;
+}
+
+.ellipse5 {
+    position: relative;
+    bottom: 25px;
+    left: 220px;
+    z-index: -1;
+    width: 140px;
+    height: 31px;
+   
+}
+
+
+
+.group {
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-right: 111.66px;
+    margin-bottom: 36px;
+    width: 225.36px;
+    height: 93.19px;
+}
+ 
+
+/* ////////////////////////////////////////////////////////////// */
+
+main2{
+    display: flex;
+    flex-direction: column;
+}
+.container55 {
+    width: 375px;
+    height: 597px;
+    padding-left: 36px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+
+.article5 {
+    width: 308.47px;
+    height: 174.27px;
+    font-size: 12px;
+    margin-right: 30.53px;
+
+}
+
+.photo51 {
+    width: 170.55px;
+    height: 160.29px;
+    padding-left: 103.45px;
+    /* padding: 0px; */
+    padding-top: 44px;
+
+
+}
+
+.photo52 {
+    position: relative;
+    bottom: 28px;
+    left: 5px;
+    z-index: -1;
+    width: 170px;
+    height: 49px;
+    padding-left: 103px;
+}
+
+.photo53 {
+    /* position: relative;
+    top: 125px;
+    right: 10px;
+    width: 222px;
+    height: 194px;
+    margin-right: 49px; */
+    display: none;
+}
+
+.photo54 {
+    /* position: absolute;
+    bottom: 420px;
+    left: 155px;
+    z-index: -1;
+
+    width: 189px;
+    height: 32px; */
+
+    display: none;
+}
+
+.about5 {
+    width: 170px;
+    height: 43.34px;
+    font-size: 26px;
+    margin: 0px;
+}
+
+.txt5 h2 {
+    font-size: 12px;
+    margin-bottom: 0.83px;
+}
+
+.txt5 {
+    /* margin-top: 45.71px; */
+    margin-left: 33.33px;
+    margin-top: 0px;
+}
+
+.txt5 p {
+    font-size: 10px;
+    width: 86px;
+    height: 18px;
+    margin-top: 0px;
+}
+.mini-container5{
+    display: flex;
+    margin:0px;
+    margin-top: 5.72px;
+    flex-wrap: wrap;
+}
+.one{
+    margin-left: 0px;
+}
 }

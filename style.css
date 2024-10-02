@@ -31,6 +31,7 @@ h1{
 }
 .list3{
     display: flex;
+    
 }
 .line1{
     width: 150px;
@@ -47,16 +48,19 @@ h1{
 .paragraph1{
     width: 223px;
     height: 39px;
+    margin: 0;
     margin-right: 122px;
 }
 .paragraph2{
     width: 271px;
     height: 109px;
+    margin: 0;
     margin-right: 113px;
 }
 .paragraph3{
     width: 245px;
     height: 39px;
+    margin: 0;
     margin-right: 344px;
 }
 h2{
@@ -72,6 +76,7 @@ p{
 ul{
     width: 662px;
     height: 374px;
+    padding-left: 19px;
 }
 li{
     font-size: 24px;

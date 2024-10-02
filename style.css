@@ -269,7 +269,7 @@ main2 {
 
 .container55 {
     height: 834px;
-    width: 568px;
+    min-width: 568px;
     padding-left: 70px;
     padding-bottom: 93px;
     padding-top: 0px;
@@ -294,8 +294,8 @@ main2 {
 
 .photo52 {
     position: relative;
-    bottom: 20px;
-    left: -20px;
+    bottom: -20px;
+    left: -290px;
     z-index: -1;
     width: 211.98px;
     height: 34.17px;
@@ -313,7 +313,7 @@ main2 {
 
 .photo54 {
     position: absolute;
-    top: 1100px;
+    top: 1050px;
     left: 75px;
     z-index: -1;
 
@@ -344,8 +344,12 @@ main2 {
     height: 22.59px;
     margin-top: 0px;
 }
+ p.two{
+    width: 108px;
+    height: 23px;
+}
 .mini-container5{
-    margin-top: 94.98px;
+    margin-top: 54.44px;
 }
 }
 
@@ -441,7 +445,14 @@ main h1 {
 
 main2{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mini-container5{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px;
+    margin-top: 45px;
+    
 }
 .container55 {
     width: 375px;
@@ -472,35 +483,38 @@ main2{
 
 .photo52 {
     position: relative;
-    bottom: 28px;
-    left: 5px;
+    bottom: -20px;
+    left: -280px;
     z-index: -1;
-    width: 170px;
+    width: 180px;
     height: 49px;
     padding-left: 103px;
 }
 
-.photo53 {
-    /* position: relative;
+/* .photo53 {
+    position: relative;
     top: 125px;
     right: 10px;
     width: 222px;
     height: 194px;
-    margin-right: 49px; */
+    margin-right: 49px;
     display: none;
 }
 
 .photo54 {
-    /* position: absolute;
+    position: absolute;
     bottom: 420px;
     left: 155px;
     z-index: -1;
 
     width: 189px;
-    height: 32px; */
+    height: 32px;
 
     display: none;
-}
+} */
+ .combination5{
+    display: none;
+ }
 
 .about5 {
     width: 170px;
@@ -516,8 +530,10 @@ main2{
 
 .txt5 {
     /* margin-top: 45.71px; */
-    margin-left: 33.33px;
+    margin-left: 20px;
     margin-top: 0px;
+    margin-bottom: 34px;
+    margin-right: 45px;
 }
 
 .txt5 p {
@@ -526,13 +542,15 @@ main2{
     height: 18px;
     margin-top: 0px;
 }
-.mini-container5{
-    display: flex;
-    margin:0px;
-    margin-top: 5.72px;
-    flex-wrap: wrap;
-}
+
 .one{
     margin-left: 0px;
+}
+.three{
+    padding-right: 30px;
+    margin-left: 0px;
+}
+.second{
+    margin-right: 190px;
 }
 }

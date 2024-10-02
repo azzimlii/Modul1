@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55.76px;
+    font-family: 'Roboto Slab', sans-serif;
+    width: 667px;
+    height: 93px;
+    
+}
+.format{
+    margin-bottom: 70px;
+}
+.answers{
+    margin-bottom: 21px;
+}
+.minibox3{
+    text-align: start;
+    margin-bottom: 200px;
+    margin-left: 122px;
+}
+.list3{
+    display: flex;
+}
+.text6{
+    width: 223px;
+    height: 78px;
+    margin-right: 122px;
+}
+.text7{
+    width: 271px;
+    height: 148px;
+    margin-right: 122px;
+}
+.text8{
+    width: 245px;
+    height: 78px;
+    margin-right: 122px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+ul{
+    width: 662px;
+    height: 374px;
+}
+li{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.textbox3{
+    margin-left: 122px;
+}

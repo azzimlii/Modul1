@@ -1,413 +1,164 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 .container4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    max-width: 1440;
-}
-
-
-.course-info {
-    background-color:#9DC9C8;
-    padding: 60px 20px;
-    text-align: left; 
+    width: 1440px;
     height: 780px;
+    background-color: #9DC9C8;
 }
 
-.course-info h1 {
-    font-size: 55px; 
-    margin-bottom: 10px; 
-    margin-left: 122px; 
-    font-weight: 700;
-    margin-top: 179px;
-}
-
-.course-info .price {
-    font-size: 80px; 
-    font-weight: 400;
-    margin: 20px 0; 
-    margin-left: 122px; 
-    padding-bottom: 117px;
-}
-
-.course-info .price-label {
-    font-size: 25px; 
-    margin-left: 122px; 
-    font-weight: 400;
-    margin-top: 54px;
-    margin-bottom: -30px;
-}
-
-
-.course-details {
-    display: flex; 
-    align-items: flex-start; 
-    margin: 20px 0;
-    padding-bottom: 185px;
-}
-
-.course-details p {
-    width: 45%; 
-    line-height: 1.5; 
-    margin: 0; 
-}
-
-.course-details p.description {
-    margin-left: 122px; 
-    width: 294px;
-    font-size: 18px;
-}
-
-.course-details p.enroll-now {
-    margin-left: 122px; 
-    width: 294px;
-    font-size: 18px;
-}
-.article4{
-    margin-left: 8px;
-   
-}
-.paragraf{
-    font-size: 25px;
-    width: 294px;
-    padding-left: 122px;
-}
-
-.footer{
-    height: 390px;
-    background-color: black;
-    padding-top: 60px;
-    }
-.footer-text{
-    color: white;
-    padding-left: 22px;
-    font-size: 25px;
+.h42 {
+    font-size: 55px;
+    font-weight: bold;
+    width: 908px;
+    height: 66px;
+    padding: 0px;
     margin: 0px;
 }
-.footer-text1{
-    color: white;
-    padding-top: 146px;
+
+.p41 {
     font-size: 25px;
-    padding-bottom: 23px;
-    
+    width: 170px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 54px;
 }
-.footer-social{
+
+.p42 {
+    width: 481px;
+    height: 93px;
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+    /* padding-top: 7px; */
+    padding-bottom: 62px;
+}
+
+.p43 {
+    font-size: 25px;
+    width: 294px;
+    height: 32px;
+    /* margin-left: 70px; */
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 9px;
+}
+
+.p44 {
+    font-size: 18px;
+    width: 294px;
+    height: 57px;
+    line-height: 101.4%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main4 {
+    padding-left: 122px;
+    padding-top: 179px;
+}
+
+.text4 {
     display: flex;
-    justify-content: space-around;
-   
+    column-gap: 70px;
+    padding-bottom: 196px;
+
 }
-.contact-small-1{
+
+.footer44 {
+    max-width: 1440px;
+    height: 390px;
+    background-color: black;
+    padding-left: 122px;
+    color: white;
+}
+
+.img4 {
+    padding-top: 50px;
+    width: 115px;
+    height: 68px;
+    padding-bottom: 30px;
+}
+
+.footer4 {
     display: flex;
-    align-items: center;
-    padding-bottom: 25px;
 }
-.contact-small-2{
-    display: flex;
-    align-items: center;
-    
+
+.logo41 {
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
 }
-.phone-img{
+
+.logo42 {
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+}
+
+.logo43 {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.logo44 {
+    width: 34px;
+    height: 34px;
+}
+
+.footer4 p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logos4 {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 130px;
+}
+
+.connection4 {
+    font-size: 25px;
+}
+
+.phone4 {
+    width: 27px;
     height: 27px;
-    width: 27px;
+    margin-right: 22px;
+    margin-left: 686px;
+    margin-bottom: 25px;
 }
-.mail-img{
+
+.mail4 {
+    width: 27px;
     height: 18px;
-    width: 27px;
+    margin-right: 22px;
+    margin-left: 686px;
 }
-.logo_mobile_white{
-    padding-bottom:30px;
+
+.con4 {
+    display: flex;
+    padding-top: 54px;
+
 }
-.social-small{
-        width: 200px;
-        display: flex;
-        justify-content: space-between;
-    }
 
+.info4 {
+    display: flex;
+    align-items: center;
+}
 
+.call4 {
+    width: 230px;
+    height: 29px;
+    padding-bottom: 14px;
+}
 
-    @media (max-width: 1279px) {
-          .container {  
-            body, html {
-                margin: 0;
-                padding: 0;
-                font-family: Arial, sans-serif;
-            }
-            
-            .container4 {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                height: 100vh;
-                width: 100%;
-            }
-            
-            
-            .course-info {
-                background-color:#9DC9C8;
-                padding: 30px 10px;
-                text-align: left; 
-                height: 451px;
-            }
-            
-            .course-info h1 {
-                font-size: 32px; 
-                margin-bottom: 10px; 
-                margin-left: 70px; 
-                font-weight: 700;
-                margin-top: 179px;
-            }
-            
-            .course-info .price {
-                font-size: 46px; 
-                font-weight: 400;
-                margin: 20px 0; 
-                margin-left: 122px; 
-                padding-bottom: 117px;
-            }
-            
-            .course-info .price-label {
-                font-size: 25px; 
-                margin-left: 70px; 
-                font-weight: 400;
-                margin-top: 54px;
-                margin-bottom: -30px;
-            }
-            
-            
-            .course-details {
-                display: flex; 
-                align-items: flex-start; 
-                margin: 20px 0;
-                padding-bottom: 107px;
-            }
-            
-            .course-details p {
-                width: 45%; 
-                line-height: 1.5; 
-                margin: 0; 
-            }
-            
-            .course-details p.description {
-                margin-left: 70px; 
-                width: 170px;
-                font-size: 10px;
-            }
-            
-            .course-details p.enroll-now {
-                margin-left: 70px; 
-                width: 170px;
-                font-size: 10px;
-            }
-            .article4{
-                margin-left: 8px;
-               
-            }
-            .paragraf{
-                font-size: 14px;
-                width: 170px;
-                padding-left: 70px;
-            }
-            
-            .footer{
-                height: 225px;
-                background-color: black;
-                padding-top: 60px;
-                }
-            .footer-text{
-                color: white;
-                padding-left: 22px;
-                font-size: 14px;
-                margin: 0px;
-            }
-            .footer-text1{
-                color: white;
-                padding-top: 84px;
-                font-size: 10px;
-                padding-bottom: 13px;
-                
-            }
-            .footer-social{
-                display: flex;
-                justify-content: space-around;
-               
-            }
-            .contact-small-1{
-                display: flex;
-                align-items: center;
-                padding-bottom: 25px;
-            }
-            .contact-small-2{
-                display: flex;
-                align-items: center;
-                
-            }
-            .phone-img{
-                height: 15px;
-                width: 15px;
-            }
-            .mail-img{
-                height: 10px;
-                width: 15px;
-            }
-            .logo_mobile_white{
-                padding-bottom:13px;
-            }
-            .social-small{
-                    width: 100px;
-                    display: flex;
-                    justify-content: space-between;
-                }
-     }
-    }
-    
-
-
-
-
-    
-    @media (max-width: 991px) {
-        .container {  
-          body, html {
-              margin: 0;
-              padding: 0;
-              font-family: Arial, sans-serif;
-          }
-          
-          .container4 {
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              height: 100vh;
-              width: 100%;
-          }
-          
-          
-          .course-info {
-              background-color:#9DC9C8;
-              padding: 30px 10px;
-              text-align: left; 
-              height: 363px;
-          }
-          
-          .course-info h1 {
-              font-size: 26px; 
-              margin-bottom: 10px; 
-              margin-left: 34px; 
-              font-weight: 700;
-              margin-top: 62px;
-          }
-          
-          .course-info .price {
-              font-size: 37px; 
-              font-weight: 400;
-              margin: 20px 0; 
-              margin-left: 34px; 
-              padding-bottom: 72px;
-          }
-          
-          .course-info .price-label {
-              font-size: 12px; 
-              margin-left: 34px; 
-              font-weight: 400;
-              margin-top: 31px;
-              margin-bottom: -30px;
-          }
-          
-          
-          .course-details {
-              display: flex; 
-              align-items: flex-start; 
-              margin: 20px 0;
-              padding-bottom: 63px;
-          }
-          
-          .course-details p {
-              width: 45%; 
-              line-height: 1.5; 
-              margin: 0; 
-          }
-          
-          .course-details p.description {
-              margin-left: 57px; 
-              width: 138px;
-              font-size: 10px;
-          }
-          
-          .course-details p.enroll-now {
-              margin-left: 57px; 
-              width: 140px;
-              font-size: 10px;
-              
-          }
-          .article4{
-              margin-left: 8px;
-            
-          }
-          .paragraf{
-              font-size: 12px;
-              width: 137px;
-              padding-left: 57px;
-          }
-          
-          .footer{
-              height: 225px;
-              background-color: black;
-              padding-top: 60px;
-              }
-          .footer-text{
-              color: white;
-              padding-left: 22px;
-              font-size: 14px;
-              margin: 0px;
-          }
-          .footer-text1{
-              color: white;
-              padding-top: 84px;
-              font-size: 10px;
-              padding-bottom: 13px;
-              
-          }
-          .footer-social{
-              display: flex;
-              justify-content: space-around;
-             
-          }
-          .contact-small-1{
-              display: flex;
-              align-items: center;
-              padding-bottom: 25px;
-          }
-          .contact-small-2{
-              display: flex;
-              align-items: center;
-              
-          }
-          .phone-img{
-              height: 15px;
-              width: 15px;
-          }
-          .mail-img{
-              height: 10px;
-              width: 15px;
-          }
-          .logo_mobile_white{
-              padding-bottom:13px;
-          }
-          .social-small{
-                  width: 100px;
-                  display: flex;
-                  justify-content: space-between;
-              }
-          .contact-big{
-            display: flex;
-            /* flex-direction: column;    */
-            flex-wrap: wrap; 
-        }
-   }
-  }
+.email4 {
+    width: 269px;
+    height: 29px;
+}

@@ -1,0 +1,80 @@
+.container2{
+    width: 1440px;
+    height: 780px;
+    /* border: 3px solid black; */
+    background: #EFEFEF;
+
+}
+/* h1{
+width: 987px;
+height: 93px;
+font-family: Roboto Slab;
+font-size: 55px;
+font-weight: 700;
+line-height: 55.76px;
+text-align: left;
+
+} */
+
+.box2{
+    width: 791px;
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 126px;
+    padding-left: 26px;
+    padding-bottom: 29px;
+
+}
+
+
+p{
+    width: 791px;
+    height: 451px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 45px;
+    box-sizing: border-box;
+    padding-right: 46px;
+    
+}
+
+.header2{
+    padding-top: 91px;
+    padding-left: 122px;
+    width: 987px;
+    height: 93px;
+}
+.img2{
+    box-sizing: border-box;
+    width: 190px;
+    height: 169px;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1px;
+}
+.photoh1{
+    display: flex;
+
+}
+.fbphoto{
+    width: 32px;
+    height: 31px;
+    padding-bottom: 68px;
+
+}
+.eynibox{
+    display: flex;
+    flex-direction: column;
+    height: 92px;
+    padding: 15px
+}

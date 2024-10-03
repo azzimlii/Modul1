@@ -57,7 +57,7 @@ img {
 
 /* 834 x 781 */
 
-@media (max-width: 1279px){
+@media (max-width: 834px){
     .container1 {
         width: 834px;
         height: 781.19px;
@@ -113,7 +113,7 @@ img {
 
 /* 375 x 1518 */
 
-@media (max-width: 991px){
+@media (max-width: 375px){
     .container1 {
         width: 375px;
         height: 1518px;

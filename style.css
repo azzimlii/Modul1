@@ -5,8 +5,8 @@ body {
 }
 
 .wrapper {
-    width: 1440px;
-    height: 6575px;
+    width: 100%;
+    height: 100%;
 
 
 }
@@ -182,7 +182,7 @@ main2 {
 }
 
 
-@media(max-width:1279px){
+@media(max-width:834px){
 
 
     .container5 {
@@ -269,7 +269,7 @@ main2 {
 
 .container55 {
     height: 834px;
-    min-width: 568px;
+    width: 568px;
     padding-left: 70px;
     padding-bottom: 93px;
     padding-top: 0px;
@@ -294,8 +294,8 @@ main2 {
 
 .photo52 {
     position: relative;
-    bottom: -20px;
-    left: -290px;
+    bottom: 20px;
+    left: -25px;
     z-index: -1;
     width: 211.98px;
     height: 34.17px;
@@ -356,7 +356,7 @@ main2 {
 
 
 
-@media(max-width:991px){
+@media(max-width:375px){
 
 main{
     display: flex;
@@ -416,13 +416,13 @@ main h1 {
 .photo5 {
     width: 141.68px;
     height: 175.1px;
-    margin-left: 201px;
+    margin-left: 180px;
 }
 
 .ellipse5 {
     position: relative;
     bottom: 25px;
-    left: 220px;
+    left: 200px;
     z-index: -1;
     width: 140px;
     height: 31px;
@@ -451,7 +451,7 @@ main2{
     display: flex;
     flex-wrap: wrap;
     margin:0px;
-    margin-top: 45px;
+    margin-top: 15px;
     
 }
 .container55 {
@@ -483,8 +483,8 @@ main2{
 
 .photo52 {
     position: relative;
-    bottom: -20px;
-    left: -280px;
+    bottom: 30px;
+    left: -10px;
     z-index: -1;
     width: 180px;
     height: 49px;
@@ -550,7 +550,5 @@ main2{
     padding-right: 30px;
     margin-left: 0px;
 }
-.second{
-    margin-right: 190px;
-}
+
 }

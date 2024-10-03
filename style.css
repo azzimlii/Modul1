@@ -1,97 +1,116 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
 }
-.container3{
+
+.container3 {
     padding: 162px 0px 248px 121px;
     max-width: 1440px;
     max-height: 1287px;
 }
-h1{
+
+h1 {
     font-weight: 700;
     font-size: 55px;
     line-height: 55.76px;
     font-family: 'Roboto Slab', sans-serif;
     width: 667px;
     height: 93px;
-    
+
 }
-.minibox3{
+
+.minibox3 {
     margin-bottom: 179px;
     width: 100%;
 }
-.format{
+
+.format {
     margin-bottom: 89px;
 }
-.answers{
+
+.answers {
     margin-bottom: 21px;
 }
-.minibox3{
+
+.minibox3 {
     text-align: start;
 }
-.list3{
+
+.list3 {
     display: flex;
-    
+
 }
-.line1{
+
+.line1 {
     width: 150px;
     height: 39px;
 }
-.line2{
+
+.line2 {
     width: 214px;
     height: 39px;
 }
-.line3{
+
+.line3 {
     width: 150px;
     height: 39px;
 }
-.paragraph1{
+
+.paragraph1 {
     width: 223px;
     height: 39px;
     margin: 0;
     margin-right: 122px;
 }
-.paragraph2{
+
+.paragraph2 {
     width: 271px;
     height: 109px;
     margin: 0;
     margin-right: 113px;
 }
-.paragraph3{
+
+.paragraph3 {
     width: 245px;
     height: 39px;
     margin: 0;
     margin-right: 344px;
 }
-h2{
+
+h2 {
     font-size: 25px;
     font-weight: 700;
     line-height: 32.5px;
     color: #1E4681;
     ;
 }
-p{
+
+p {
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
 }
-ul{
+
+ul {
     width: 662px;
     height: 374px;
     padding-left: 19px;
 }
-li{
+
+li {
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
 }
-@media( max-width: 1279px ){
-    .container3{
+
+@media(max-width: 834px) {
+    .container3 {
         padding: 93.83px 0px 143.63px 70.08px;
         max-width: 564.69px;
         max-height: 582.48px;
     }
-    h1{
+
+    h1 {
         font-weight: 700;
         font-size: 32px;
         line-height: 32.44px;
@@ -99,72 +118,89 @@ li{
         width: 386.3px;
         height: 53.86px;
     }
-    .minibox3{
+
+    .minibox3 {
         margin-bottom: 103.55px;
         width: 100%;
     }
-    .format{
+
+    .format {
         margin-bottom: 51.55px;
     }
-    .answers{
+
+    .answers {
         margin-bottom: 12.16px;
     }
-    .minibox3{
+
+    .minibox3 {
         text-align: start;
     }
-    .list3{
+
+    .list3 {
         display: flex;
     }
-    .line1, .line3{
+
+    .line1,
+    .line3 {
         width: 86.88px;
         height: 22.59px;
     }
-    .line2{
+
+    .line2 {
         width: 123.94px;
         height: 22.59px;
     }
-    .paragraph1{
+
+    .paragraph1 {
         width: 153px;
         height: 22px;
         margin-right: 46px;
     }
-    .paragraph2{
+
+    .paragraph2 {
         width: 172px;
         height: 63px;
         margin-right: 50.87px;
     }
-    .paragraph3{
+
+    .paragraph3 {
         width: 141.9px;
         height: 22.59px;
         margin-right: 199.23px;
     }
-    h2{
+
+    h2 {
         font-size: 15px;
         font-weight: 700;
         line-height: 19.5px;
     }
-    p{
+
+    p {
         font-size: 11px;
         font-weight: 400;
         line-height: 14.3px;
     }
-    ul{
+
+    ul {
         width: 383.41px;
         height: 216.61px;
     }
-    li{
+
+    li {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
     }
 }
-@media( max-width: 991px){
-    .container3{
+
+@media(max-width: 375px) {
+    .container3 {
         padding: 76px 28.2px 85px 36px;
-        max-width: 311.8px;
-        max-height: 590.99px;
+        width: 311.8px;
+        height: 590.99px;
     }
-    h1{
+
+    h1 {
         font-weight: 700;
         font-size: 26px;
         line-height: 26.36px;
@@ -172,60 +208,75 @@ li{
         width: 310.8px;
         height: 43.34px;
     }
-    .minibox3{
+
+    .minibox3 {
         margin-bottom: 73px;
         width: 100%;
     }
-    .format{
+
+    .format {
         margin-bottom: 16.66px;
     }
-    .answers{
+
+    .answers {
         margin-bottom: 9.66px;
     }
-    .minibox3{
+
+    .minibox3 {
         text-align: start;
     }
-    .list3{
+
+    .list3 {
         display: flex;
         flex-direction: column;
         width: 180px;
         height: 216px;
     }
-    .line1, .line3{
+
+    .line1,
+    .line3 {
         width: 69.09px;
         height: 18.17px;
     }
-    .line2{
+
+    .line2 {
         width: 99.72px;
         height: 18.17px;
     }
-    .paragraph1{
+
+    .paragraph1 {
         width: 180px;
         height: 48px;
     }
-    .paragraph2{
+
+    .paragraph2 {
         width: 165px;
         height: 51px;
     }
-    .paragraph3{
+
+    .paragraph3 {
         width: 159px;
         height: 31px;
     }
-    h2{
+
+    h2 {
         font-size: 12px;
         font-weight: 700;
         line-height: 15.6px;
     }
-    p{
+
+    p {
         font-size: 10px;
         font-weight: 400;
         line-height: 13px;
     }
-    ul{
+
+    ul {
         width: 299px;
         height: 174px;
     }
-    li{
+
+    li {
         font-size: 12px;
         font-weight: 400;
         line-height: 18px;

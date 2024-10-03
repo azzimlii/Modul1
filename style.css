@@ -168,11 +168,12 @@ body {
     font-size: 18px;
     padding-bottom: 23px;
 }
-@media(max-width:1279px){
+@media(max-width:834px){
     .container4 {
         max-width: 834px;
         height: 677.63px;
         background-color: #9DC9C8;
+       
     }
     
     .h42 {
@@ -341,7 +342,7 @@ body {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 376px) {
     .container4 {
         width: 376px;
         height: 363px;
@@ -405,6 +406,7 @@ body {
     .footer4 {
         display: flex;
         flex-wrap: wrap;
+       
     }
 
     .footer44 {
@@ -459,8 +461,8 @@ body {
     }
     
     .phone4 {
-        width: 15.5px;
-        height: 15.5px;
+        width: 12px;
+        height: 12px;
         margin-right: 10px;
         margin-left: 0px;
         margin-bottom: 10px;    
@@ -468,8 +470,8 @@ body {
     }
 
     .mail4 {
-        width: 18px;
-        height: 18px;
+        width: 12px;
+        height: 12px;
         margin-right: 10px;
         margin-left: 0px;
     }
@@ -477,12 +479,13 @@ body {
     .con4 {
         display: flex;
         padding-top: 40px;
-    
+        
     }
     
     .info4 {
         display: flex;
         align-items: flex-end;
+        padding-top: 158px;
     }
     
     .call4 {
@@ -501,6 +504,6 @@ body {
         height: 11px;
         padding: 0px;
         margin: 0px;
-        margin-top: 48px;
+        margin-top: -42px;
     }
 }

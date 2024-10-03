@@ -69,13 +69,15 @@ main h1 {
     font-size: 20px;
     width: 414px;
     height: 62px;
-    margin: 0px;
+    margin: 0px;  
+
 }
 
 .photo5 {
     width: 304px;
     height: 356px;
     margin-left: 140px;
+
 }
 
 .ellipse5 {
@@ -87,7 +89,7 @@ main h1 {
     height: 41px;
 }
 
-main {
+.main {
     display: flex;
 }
 
@@ -107,6 +109,9 @@ main {
 main2 {
     display: flex;
 }
+main{
+    display: flex;
+}
 
 .mini-container5 {
     display: flex;
@@ -123,11 +128,20 @@ main2 {
 
 .article5 {
     max-width: 662px;
-    height: 374px;
+    height: 174px;
     font-size: 24px;
     margin-right: 36px;
 
+
 }
+/* .article5 p{
+    padding: 0px;
+    margin: 0px;
+
+} */
+/* .pp5{
+    height: 120px;
+} */
 
 
 .photo51 {
@@ -176,7 +190,7 @@ main2 {
 
 .txt5 h2 {
     font-size: 25px;
-    margin-bottom: 3px;
+    margin-bottom: 3px;  
 }
 
 .txt5 {
@@ -191,6 +205,12 @@ main2 {
     margin-top: 0px;
 }
 
+
+
+   
+
+
+
 .container3 {
     /* padding: 162px 0px 248px 121px; */
     padding: 162px 0px 214px 0px;
@@ -198,7 +218,7 @@ main2 {
     max-height: 1287px;
 }
 
-h1 {
+.container3 h1 {
     font-weight: 700;
     font-size: 55px;
     line-height: 55.76px;
@@ -249,14 +269,14 @@ h1 {
 .paragraph1 {
     width: 223px;
     height: 39px;
-    margin: 0;
+    margin: 0px;
     margin-right: 122px;
 }
 
 .paragraph2 {
     width: 271px;
     height: 109px;
-    margin: 0;
+    margin: 0px;
     margin-right: 113px;
 }
 
@@ -267,7 +287,7 @@ h1 {
     margin-right: 344px;
 }
 
-h2 {
+.list3 h2 {
     font-size: 25px;
     font-weight: 700;
     line-height: 32.5px;
@@ -275,7 +295,7 @@ h2 {
     ;
 }
 
-p {
+.list3 p {
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -293,6 +313,16 @@ li {
     line-height: 36px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .container1 {
     width: 1440px;
     max-height: 1379px;
@@ -308,6 +338,7 @@ li {
     column-gap: 37px;
     row-gap: 41px;
     margin-top: 116px;
+  
 }
 
 .container1 h2 {
@@ -343,6 +374,16 @@ img {
     width: 399px;
     height: 328px;
 }
+
+
+
+
+
+
+
+
+
+
 .container2 {
     width: 1440px;
     height: 780px;
@@ -361,7 +402,7 @@ img {
     background-color: white;
 }
 
-p {
+.p2 {
     width: 700px;
     height: 203px;
     font-family: Roboto;
@@ -375,7 +416,7 @@ p {
     text-align: left;
 }
 
-h1 {
+.h21 {
     width: 987px;
     height: 93px;
     font-family: Roboto Slab;
@@ -394,7 +435,7 @@ h1 {
     padding-bottom: 29px
 }
 
-h2 {
+.h22 {
     display: flex;
     flex-direction: column;
     width: 353px;
@@ -425,10 +466,26 @@ h2 {
     padding-bottom: 100px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container4 {
     width: 1440px;
     height: 780px;
-    background-color: #9DC9C8;
+    padding-left: 126px;
    
 }
 
@@ -482,6 +539,8 @@ h2 {
 .main4 {
     padding-left: 122px;
     padding-top: 179px;
+    background-color: #9DC9C8;
+    margin-left: -122px;
    
 }
 
@@ -497,6 +556,7 @@ h2 {
     height: 390px;
     background-color: black;
     padding-left: 122px;
+    margin-left: -122px;
     color: white;
 }
 
@@ -592,6 +652,23 @@ h2 {
     padding-bottom: 23px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:834px) {
 
 
@@ -677,7 +754,9 @@ h2 {
 
     /* ////////////////////////////////////////////////////////////// */
 
-
+    main{
+        display: flex;
+    }
     .container55 {
         height: 834px;
         width: 568px;
@@ -724,7 +803,7 @@ h2 {
 
     .photo54 {
         position: absolute;
-        top: 1050px;
+        top: 1070px;
         left: 75px;
         z-index: -1;
 
@@ -764,6 +843,7 @@ h2 {
     .mini-container5 {
         margin-top: 54.44px;
     }
+    
 }
 
 
@@ -774,7 +854,7 @@ h2 {
         max-height: 582.48px;
     }
 
-    h1 {
+   .container3 h1 {
         font-weight: 700;
         font-size: 32px;
         line-height: 32.44px;
@@ -833,13 +913,14 @@ h2 {
         margin-right: 199.23px;
     }
 
-    h2 {
+    .list3 h2 {
         font-size: 15px;
         font-weight: 700;
         line-height: 19.5px;
+        color:#1E4681;
     }
 
-    p {
+    .list3 p {
         font-size: 11px;
         font-weight: 400;
         line-height: 14.3px;
@@ -880,7 +961,7 @@ h2 {
         font-size: 32px;
         width: 524px;
         height: 42px;
-        padding-left: 0px;
+        /* padding-left: 0px; */
     }
 
     img {
@@ -935,7 +1016,7 @@ h2 {
         padding-left: 3px;
     }
 
-    h1 {
+    .h21 {
         width: 571.64px;
         height: 53.86px;
         font-family: Roboto Slab;
@@ -948,7 +1029,7 @@ h2 {
         padding-top: 53px;
     }
 
-    p {
+    .p2 {
         width: 405.42px;
         height: 117.57px;
         font-family: Roboto;
@@ -971,7 +1052,7 @@ h2 {
         padding-left: 15px;
     }
 
-    h2 {
+    .h22 {
         display: flex;
         flex-direction: column;
         width: 204.45px;
@@ -1012,7 +1093,8 @@ h2 {
     .container4 {
         max-width: 834px;
         height: 677.63px;
-        background-color: #9DC9C8;
+        padding-left: 44px;
+       
        
     }
     
@@ -1066,6 +1148,10 @@ h2 {
     .main4 {
         padding-left: 70.66px;
         padding-top: 103.67px;
+        background-color: #9DC9C8;
+        margin-left: -92px;
+        max-width: 834px;
+        height: 351.75px;
     }
     
     .text4 {
@@ -1080,6 +1166,7 @@ h2 {
         height: 230px;
         background-color: black;
         padding-left: 70.66px;
+        margin-left: -92px;
         color: white;
     }
     
@@ -1393,7 +1480,7 @@ h2 {
         height: 590.99px;
     }
 
-    h1 {
+    .container3 h1 {
         font-weight: 700;
         font-size: 26px;
         line-height: 26.36px;
@@ -1452,13 +1539,13 @@ h2 {
         height: 31px;
     }
 
-    h2 {
+    .list3 h2 {
         font-size: 12px;
         font-weight: 700;
         line-height: 15.6px;
     }
 
-    p {
+    .list p {
         font-size: 10px;
         font-weight: 400;
         line-height: 13px;
@@ -1557,7 +1644,7 @@ h2 {
 
     }
 
-    p {
+    .p2 {
         width: 266px;
         height: 111.01px;
         font-family: Roboto;
@@ -1569,7 +1656,7 @@ h2 {
         padding-right: 21px;
     }
 
-    h1 {
+    .h21 {
         width: 257px;
         height: 69px;
         font-family: Roboto Slab;
@@ -1592,7 +1679,7 @@ h2 {
 
     }
 
-    h2 {
+    .h22 {
         display: flex;
         flex-direction: column;
         width: 164.49px;
@@ -1627,6 +1714,7 @@ h2 {
     .container4 {
         width: 376px;
         height: 363px;
+        padding-left: 42px;
     }
 
     .h42 {
@@ -1695,6 +1783,7 @@ h2 {
         max-width: 375px;
         height: 251px;
         padding-left: 37.85px;
+        margin-left: -27px;
     }
 
     .img4 {

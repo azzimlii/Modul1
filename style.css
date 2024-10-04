@@ -109,9 +109,9 @@ main h1 {
 main2 {
     display: flex;
 }
-main{
+/* main{
     display: flex;
-}
+} */
 
 .mini-container5 {
     display: flex;
@@ -131,12 +131,12 @@ main{
     height: 174px;
     font-size: 24px;
     margin-right: 36px;
-
-
 }
 /* .article5 p{
     padding: 0px;
     margin: 0px;
+    max-width: 662px;
+    min-width: 383.41px;
 
 } */
 /* .pp5{
@@ -173,7 +173,8 @@ main{
 
 .photo54 {
     position: absolute;
-    top: 1760px;
+    /* top: 1760px; */
+    top: 1778px;
     left: 155px;
     z-index: -1;
 
@@ -754,7 +755,7 @@ img {
 
     /* ////////////////////////////////////////////////////////////// */
 
-    main{
+    main2{
         display: flex;
     }
     .container55 {
@@ -771,7 +772,6 @@ img {
         height: 216.61px;
         font-size: 14px;
         margin-right: 16px;
-
     }
 
     .photo51 {
@@ -1545,7 +1545,7 @@ img {
         line-height: 15.6px;
     }
 
-    .list p {
+    .list3 p {
         font-size: 10px;
         font-weight: 400;
         line-height: 13px;
@@ -1764,6 +1764,7 @@ img {
     .main4 {
         padding-left: 35px;
         padding-top: 62px;
+        margin-left: -26px;
     }
 
     .text4 {
